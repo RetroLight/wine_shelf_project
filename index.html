@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--------- Roboto Condenset font ---------->
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Wine Shell</title>
+</head>
+<body>
+	<section class = "first-block" id="first-block-scroll">
+		<header>
+			<button class="top-nav_btn" id="adaptive_button">
+				<img src="img/resp_menu_btn.svg" alt="">
+			</button>
+			<ul class="adaptive_menu" id="adaptive_toggle">
+				<img id="cancel_button" src="img/cancel_button.png" alt="">							
+				<a href="#">
+					<li class="adaptive_menu__item">Главная</li>
+				</a>
+				<a href="">
+					<li class="adaptive_menu__item">О Нас</li>
+				</a>
+				<a href="">
+					<li class="adaptive_menu__item">Услуги</li>
+				</a>
+				<a href="">
+					<li class="adaptive_menu__item">Акции</li>
+				</a>
+				<a href="">
+					<li class="adaptive_menu__item">Контакты</li>
+				</a>
+				<a href="">
+					<li class="adaptive_menu__item6">Прайс-лист</li>
+				</a>
+			</ul>						
+			<div class="hours24">
+				<h3>Сервисный центр 24 часа</h3>
+				<p>Ремонт и обслуживание винных шкафов</p>
+			</div>			
+			<nav class = "top-nav">
+				<ul class = "top-nav_menu">
+					<li class = "top-nav_menu_item"><a href="#first-block-scroll">Главная</a></li>
+					<li class = "top-nav_menu_item"><a href="#second-block-scroll">О нас</a></li>
+					<li class = "top-nav_menu_item"><a href="#third-block-scroll">Услуги</a></li>
+					<li class = "top-nav_menu_item"><a href="">Акции</a></li>
+					<li class = "top-nav_menu_item"><a href="#contacts-scroll">Контакты</a></li>
+					<li class = "top-nav_menu_item"><a href="#third-block-scroll">Прайс-лист</a></li>
+				</ul>
+			</nav>
+			<div class = "tel-number">
+				8 (812) 345 67 90
+			</div>
+			<div class = "call-order">
+				Заказать звонок
+			</div>
+		</header>
+		<div class="slider">
+			<div class="fotorama"  data-width="100%" data-height="520" data-arrows="true" data-click="false" data-swipe="true" data-nav="false" data-loop="true" data-autoplay="true">
+				<div class="slide slidebg1">
+					<div class="slider-text">
+						<p class = "first-line">Ремонт и обслуживание</p>
+						<h1 class = "main-line">Винных шкафов и винотек</h1>
+						<p class = "small-line">Мы работаем круглосуточно. По всей Москве и Московской области.
+							<br/>Доверьте свою технику профессионалам!</p>
+					</div>
+					<button class = "call-button" type="submit">
+						вызвать мастера
+					</button>
+				</div>
+				<div class="slide slidebg2">
+					<div class="slider-text">						
+						<h1 class = "main-line">Гарантия на работу</h1>
+						<p class = "small-line">Мы гарантируем качество предоставляемых услуг в течении 6-12 месяцев
+							<br/>(зависит от типа и состояния ремонтируемой техники).</p>
+					</div>
+					<button class = "call-button" type="submit">
+						вызвать мастера
+					</button>
+				</div>
+				<div class="slide slidebg3">
+					<div class="slider-text">						
+						<h1 class = "main-line">Гарантия цены</h1>
+						<p class = "small-line">Не меняем цены в процессе. Сообщаем точную стоимость сразу после диагностики оборудования.
+							Никаких дополнительных сборов!</p>
+					</div>
+					<button class = "call-button" type="submit">
+						вызвать мастера
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class = "second-block" id='second-block-scroll'>
+		<div class="why-we">
+			<h2>ПОЧЕМУ МЫ?</h2>
+			<div class = "why">
+				<img src="img/second_block_icons/1.svg" alt="">
+				<div class="why_text">
+					<h2>Гарантия на работу</h2>
+					<p>Мы гарантируем качество предоставляемых услуг в течении 6-12 месяцев 
+						(зависит от типа и состояния ремонтируемой техники).</p>
+				</div>
+			</div>
+			<div class = "why">
+				<img src="img/second_block_icons/2.svg" alt="">
+				<div class="why_text">
+					<h2>Гарантия на запасные части</h2>
+					<p>Используем оригинальные запасные части от завода-изготовителя. 
+						Гарантируем подлинность и бесперебойную работу в течении 6-12 месяцев.</p>
+				</div>
+			</div>
+			<div class = "why">
+				<img src="img/second_block_icons/3.svg" alt="">
+				<div class="why_text">
+					<h2>Гарантия цены</h2>
+					<p>Не меняем цены в процессе. Сообщаем точную стоимость сразу после диагностики оборудования. 
+						Никаких дополнительных сборов!</p>
+				</div>
+			</div>
+		</div>
+		<!--------- Form ----------->
+		<div class = "diagnostic-form_block">
+			<h3>Хотите узнать причину поломки?</h3>
+			<p>Закажите бесплатную диагностику</p>
+			<form class = "Dform" action="">
+				<input class = "form-line" type = "text" id = "name" placeholder= "Введите имя">
+				<input class = "form-line" type = "text" id = "number" placeholder = "Телефонный номер">
+				<textarea class = "form-line" id="message" cols="30" rows="7" placeholder="Сообщение"></textarea>
+				<button class = "diagnostic_button" type = "submit">Заказать диагностику</button>
+			</form>
+		</div>
+	</section>
+	<section class = "third-block" id="third-block-scroll">
+		<h2 class = "third-block_heading">Основные неисправности и стоимость работ</h2>
+		<table class = "third-block_table">
+			<tr>
+				<th class = "table-h h-name">Неисправность холодильника</th>
+				<th class = "table-h h-price">Стоимость ремонта</th>
+			</tr>
+			<tr>
+				<td class = "service-name">Выезд мастера на объект</td>
+				<td class = "service-price">0 руб.</td>
+			</tr>
+			<tr class = "table-line">
+				<td class = "service-name">Диагностика холодильника при последующем ремонте</td>
+				<td class = "service-price">0 руб.</td>
+			</tr>
+			<tr>
+				<td class = "service-name">Стоимость выезда мастера за пределы КАД</td>
+				<td class = "service-price">от 150 руб.</td>
+			</tr>
+			<tr class = "table-line">
+				<td class = "service-name">Стоимость вызова мастера и диагностика холодильника</td>
+				<td class = "service-price">500 руб.</td>
+			</tr>
+			<tr>
+				<td class = "service-name">Засор слива воды в холодильнике</td>
+				<td class = "service-price">от 1150 руб.</td>
+			</tr>
+			<tr class = "table-line">
+				<td class = "service-name">Устранение утечки хладагента</td>
+				<td class = "service-price">от 1600 руб.</td>
+			</tr>
+			<tr>
+				<td class = "service-name">Заправка холодильника фреоном</td>
+				<td class = "service-price">от 2500 руб.</td>
+			</tr>
+			<tr class = "table-line">
+				<td class = "service-name">Устранение засора капилярной трубки или ее замена</td>
+				<td class = "service-price">от 1700 руб.</td>
+			</tr>
+			<tr>
+				<td class = "service-name">Установка или ремонт испарителя</td>
+				<td class = "service-price">от 3200 руб.</td>
+			</tr>
+			<tr class = "table-line">
+				<td class = "service-name">Замена сенсорных датчиков</td>
+				<td class = "service-price">от 3800 руб.</td>
+			</tr>
+			<tr>
+				<td class = "service-name">Ремонт электронных плат</td>
+				<td class = "service-price">от 2250 руб.</td>
+			</tr>
+			<tr class = "table-line">
+				<td class = "service-name">Замена вентилятора</td>
+				<td class = "service-price">от 1200 руб.</td>
+			</tr>
+		</table>
+		<button class = "support-call" type = "submit">
+			Вызвать мастера
+		</button>
+	</section>
+	<section class = "feedbacks">
+		<h1>Отзывы наших клиентов</h1>				
+			<div class="feedback-message_active">
+				<img class = "left-comma_first" src="img/feedbacks/left.svg" alt="">
+				<img class = "left-comma_second" src="img/feedbacks/left.svg" alt="">			
+					<p class = "feedback-mes">
+						Понадобилась срочная уборка, так как собирались приехать родственники. 
+						Нашел в поисковике фирму, позвонил. Ответили сразу. 
+						Сначала сказали, что не могут выслать бригаду, потом попросили повисеть на линии, сказали, что приедут. Приехали за полчаса, хотя были пробки, судя по Яндекс.Картам. Быстро все убрали: протерли пыль, 
+						отмыли фасады шкафа, пропылесосили, пятно с ковра удалили, помыли полы. Справились за 1,5 часа. 
+						Работой и в целом отношением сотрудников доволен, 
+						но вот собранный мусор они не забрали с собой, а в мусорное ведро положили.
+					</p><img class = "right-comma_first" src="img/feedbacks/right.svg" alt=""><img class = "right-comma_second" src="img/feedbacks/right.svg" alt="">
+				<p class = "feedback_name">Ольга Николаева</p>
+			</div>
+			<div class="feedback-message">
+				<img class = "left-comma_first" src="img/feedbacks/left.svg" alt="">
+				<img class = "left-comma_second" src="img/feedbacks/left.svg" alt="">			
+					<p class = "feedback-mes">
+						consectetur adipisicing elit. consectetur adipisicing elit. 
+						ullam nobis at quo, porro nemo! Non quidem dolorem, enim magnam temporibus illum!
+						Lorem ipsum dolor sit
+						Magni incidunt voluptates possimus
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Ad officia eum dolor aperiam dicta, tenetur esse, tempora labore error voluptates, 
+						sapiente voluptatibus accusamus rem. Eveniet voluptatum esse aliquid, sint doloremque.
+					</p><img class = "right-comma_first" src="img/feedbacks/right.svg" alt=""><img class = "right-comma_second" src="img/feedbacks/right.svg" alt="">
+				<p class = "feedback_name">Владимир Иванов</p>
+			</div>
+			<div class="feedback-message">
+				<img class = "left-comma_first" src="img/feedbacks/left.svg" alt="">
+				<img class = "left-comma_second" src="img/feedbacks/left.svg" alt="">			
+					<p class = "feedback-mes">
+						consectetur adipisicing elit. 
+						ullam nobis at quo, porro nemo! Non quidem dolorem, enim magnam temporibus illum!
+						Lorem ipsum dolor sit Lorem ipsum dolor sit amet,ris libero ea, aut sequi saepe quis provident, 
+						sint optio rerum temporibus illo reprehenderit cumque ullam nobis at quo, porro nemo! Non quidem dolorem, enim magnam temporibus illum!
+						consectetur adipisicing elit. 
+						Magni incidunt voluptates possimus ipsa corporis lib
+					</p><img class = "right-comma_first" src="img/feedbacks/right.svg" alt=""><img class = "right-comma_second" src="img/feedbacks/right.svg" alt="">
+				<p class = "feedback_name">Валерия Петрова</p>
+			</div>
+			<div class="feedback-message">
+				<img class = "left-comma_first" src="img/feedbacks/left.svg" alt="">
+				<img class = "left-comma_second" src="img/feedbacks/left.svg" alt="">			
+					<p class = "feedback-mes">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						ullam nobis at quo, porro nemo! Non quidem dolorem, enim magnam temporibus illum!
+						Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Magni incidunt voluptates possimus ip consectetur adipisicing elit. 
+						Magni incidunt voluptates possimus
+						illo reprehenderit cumque ullam nobis at quo, porro nemo! Non quidem dolorem, enim magnam temporibus illum!
+						Lorem ipsum
+					</p><img class = "right-comma_first" src="img/feedbacks/right.svg" alt=""><img class = "right-comma_second" src="img/feedbacks/right.svg" alt="">
+				<p class = "feedback_name">Анастасия Михалккова</p>
+			</div>
+			<div class="feedback-message">
+				<img class = "left-comma_first" src="img/feedbacks/left.svg" alt="">
+				<img class = "left-comma_second" src="img/feedbacks/left.svg" alt="">			
+					<p class = "feedback-mes">
+						illo reprehenderit cumque ullam nobis at quo, porro nemo! Non quidem dolorem, enim magnam temporibus illum!
+						Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Magni incidunt voluptates possimus ipsa corporis libero ea, aut sequi saepe quis provident, 
+						sint optio rerum temporibus amet, consectetur adipisicing elit. 
+						
+					</p><img class = "right-comma_first" src="img/feedbacks/right.svg" alt=""><img class = "right-comma_second" src="img/feedbacks/right.svg" alt="">
+				<p class = "feedback_name">Андрей Васильев</p>
+			</div>						
+		<div class = "feedback-num">
+			<span id = "feedback-num_item_act">00</span>
+			<span class = "feedback-num_item_active">01</span>
+			<span class = "feedback-num_item">02</span>
+			<span class = "feedback-num_item">03</span>
+			<span class = "feedback-num_item">04</span>
+			<span class = "feedback-num_item">05</span>
+		</div>
+	</section>
+	<section class = "brands">
+		<div class="brands-block">
+			<h2 class = "brands-block_heading">БРЕНДЫ, С КОТОРЫМИ МЫ РАБОТАЕМ</h2>
+			<div class="brands-block_img">
+				<img src="img/logos_block/vine_cold.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/cavanova.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/aeg.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/vestfrost.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/miele.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/liebherr.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/kuppersbusch.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/industrie.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/indelB.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/hotpoint.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/gaggenau.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/fulgor.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/dunavox.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/euro_cave.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/enofrigo.png" alt="" class="brands-block_img_item">
+				<img src="img/logos_block/domestic.png" alt="" class="brands-block_img_item">
+			</div>
+		</div>
+	</section>
+	<section class = "faq">
+		<h2 class = "faq-h">ОТВЕТЫ НА ЧАСТЫЕ ВОПРОСЫ</h2>
+		<div class="faq-block">
+			<table>
+				<tr>
+					<td class="faq-block_number">01</td>
+					<td class="faq-block_question">
+						<p class = "faq-block_question_q">Сколько стоит выезд мастера?</p>
+						<p class = "faq-block_question_a">Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Magni facere laboriosam dolore, pariatur ut autem. Perferendis tenetur, sint ex dolorum 
+						distinctio dolores ullam saepe asperiores culpa fuga labore magnam placeat voluptatibus repellendus laudantium voluptatem, provident accusamus assumenda tempore modi? 
+						Eum veritatis, corrupti itaque, suscipit magnam unde incidunt! Quam, aspernatur, facilis.</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="faq-block_number">02</td>
+					<td class="faq-block_question">
+						<p class = "faq-block_question_q">Какой гарантийный срок на произведенный ремонт?</p>
+						<p class = "faq-block_question_a">Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Non ipsa enim ut sit ipsum aperiam fugit, quam libero eaque ea, cupiditate labore. 
+						Pariatur, amet, nesciunt? Hic ut, doloribus iusto unde ipsam necessitatibus id qui cupiditate, cumque praesentium dolorem aut. 
+						Aut voluptatem deleniti aliquid, minima quae? Magni voluptas libero est, quia!</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="faq-block_number">03</td>
+					<td class="faq-block_question">
+						<p class = "faq-block_question_q">Как быстро приедет мастер?</p>
+						<p class = "faq-block_question_a">Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Velit soluta sint ipsum provident, facere asperiores! Quasi dicta voluptas sed nulla explicabo non nesciunt illo voluptates, expedita cumque! 
+						Eum blanditiis placeat exercitationem a! Odio placeat officiis possimus dolores reiciendis blanditiis obcaecati aperiam sapiente! Doloribus et, explicabo. Quisquam reprehenderit 
+						numquam mollitia explicabo.</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="faq-block_number">04</td>
+					<td class="faq-block_question">
+						<p class = "faq-block_question_q">По какому алгоритм проходит визит мастера?</p>
+						<p class = "faq-block_question_a">Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit. Sunt dolorum unde rerum, saepe ipsam non laudantium! Deserunt accusantium nam facilis autem optio, 
+						asperiores necessitatibus fuga? Sapiente non tempora ex delectus facilis eius hic illo recusandae possimus, ratione earum placeat neque corporis 
+						laboriosam laudantium repellendus labore quam perferendis impedit? Ut, minus?</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="faq-block_number">05</td>
+					<td class="faq-block_question">
+						<p class = "faq-block_question_q">В каких случаях проводить ремонт нерентабельно, и проще купить новую технику?</p>
+						<p class = "faq-block_question_a">Ремонт проводить рентабельно всегда. 
+							Раньше технику собирали с запасом на хорошую ремонтопригодность в будущем. 
+							Сейчас производители бытовой техники среднего ценового сегмента зачастую устанавливают запчасти заведомо низкого качества, 
+							вместо хороших деталей, которые использовались в моделях постарше. 
+							Наши инженеры при ремонте подбирают фирменные запчасти высокого уровня надежности, 
+							тем самым увеличивая срок службы бытовой техники.</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="faq-block_number">06</td>
+					<td class="faq-block_question">
+						<p class = "faq-block_question_q">Как правильно ухаживать за винным шкафом?</p>
+						<p class = "faq-block_question_a">Lorem ipsum dolor sit amet,
+						consectetur adipisicing elit. Ullam in expedita beatae eligendi nihil commodi totam quae ut modi, 
+						distinctio nesciunt maiores dolorem hic nobis atque minus earum sunt repudiandae ex officia, nisi obcaecati. 
+						Ratione quasi officiis nesciunt ad porro minus nisi laboriosam alias rem rerum! Eaque deserunt, earum doloribus!</p>
+					</td>
+				</tr>
+			</table>
+			<button class = "faq-button" type = "submit">Задать вопрос</button>
+		</div>
+	</section>
+	<section class = "callback-block" id="contacts-scroll">
+		<h2>Оставьте заявку и мы вам перезвоним!</h2>
+		<form class = "callback-form" action="">
+			<input class = "callback-form_name" type="text" id = "bname" placeholder = "Ваше имя">
+			<input class = "callback-form_number" type="text" id = "bnumber" placeholder = "Телефонный номер">
+			<input class = "callback-form_manu" type="text" id = "bmanufacturer" placeholder = "Производитель">
+			<input class = "callback-form_problem" type="text" id = "bproblem" placeholder = "Опишите поломку">
+			<button class = "callback-form_button" type = "submit">Отправить заявку</button>
+			<div class="checkbox-block">
+				<input class = "checkbox-block_date" type="checkbox" name = "personal-date">
+				<label class = "checkbox-block_label" for="personal-date">Соглашение об обработке персональных данных</label>
+			</div>
+		</form>
+	</section>
+	 <section class = "contacts">
+	 		<div class="map">
+	 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8509.950103661102!2d30.3022870683937!3d59.87062754472307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963a9f8e812df5%3A0x9844e4b5fe48a988!2z0J3QvtCy0L7QuNC30LzQsNC50LvQvtCy0YHQutC40Lkg0L_RgC4sIDgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQm9C10L3QuNC90LPRgNCw0LTRgdC60LDRjywgMTk2MTI4!5e0!3m2!1sru!2sru!4v1565382859488!5m2!1sru!2sru"
+	 			 width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe> 			
+	 		</div>  
+	 		<div class="contacts-block">
+	 			<div class = "contacts-block_item">
+	 				<h4>Телефон</h4>
+	 				<p>8 (812) 456 78 35 </p>
+	 			</div>
+	 			<div class = "contacts-block_item">
+	 				<h4>Адрес</h4>
+	 				<p>г.Санкт-Петербург, Навоизмайловский пр. 8,
+						оф.34</p>
+	 			</div>
+	 			<div class = "contacts-block_item">
+	 				<h4>E-mail</h4>
+	 				<p>info@winecooler.ru</p>
+	 			</div>
+	 			<div class = "contacts-block_item">
+	 				<h4>Время работы</h4>
+	 				<p>Без выходных. С 8.00 и до
+						последнего клиента</p>
+	 			</div>
+	 		</div>	 		
+	 </section>
+	 <section class = "footer">
+	 		<div>Сервисный центр по ремонту винных шкафов. 2019 г.</div>
+	 		<div>Создание сайта - Trendspb</div>
+	 </section>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script src="js/smooth.js"></script>
+<script src="js/toggle_menu.js"></script>
+<script src="js/faqBlock.js"></script>
+<script src="js/feedbacks.js"></script>
+<script src="js/forms.js"></script>
+</body>
+</html>
